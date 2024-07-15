@@ -14,3 +14,17 @@ def deposit():
 
 
 deposit()
+
+
+# Collect the bet from the user, and how many lines.  (bet * lines)
+def get_number_of_lines():
+
+
+
+
+def main():
+    balance = deposit()
+
+
+main()
+
