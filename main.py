@@ -9,7 +9,7 @@ def deposit():
             else:
                 print("Amount must be greater than 0.")
         else:
-            print("Please enter a number.")
+            print("Please enter a valid number.")
 
     return amount
 
