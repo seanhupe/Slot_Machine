@@ -16,10 +16,22 @@ symbol_count = {
     "D": 8
 }
 
+
 def get_slot_machine_spin(rows, cols, symbols):
     all_symbols = []
     for symbol, symbol_count in symbols.items():
         for _ in range(symbol_count):
+            all_symbols.append(symbol)
+
+    columns = []
+    for col in range(cols):
+        column = []
+        current_symbols = all_symbols
+        for row in range(rows):
+            value = random.choice(all_symbols)
+
+
+
 def deposit():
     while True:
         amount = input("What would you like to deposit? $")
